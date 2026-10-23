@@ -31,6 +31,15 @@ The report is in `reports/`.
 3. To build the Week 2 report after the notebook has run:
    `python make_report.py --name "Your Name" --repo "https://github.com/<user>/rag-project"`
 
+
+
+### Week 3: Supervised models
+
+Trained KNN, Decision Tree and Logistic Regression on the arXiv field-classification data from Week 2 (10 classes, stratified 80/20 split). Best K and best max_depth were chosen with 5-fold cross-validation on the training data.
+Models were compared with accuracy, confusion matrix, precision, recall and F1. Because the classes are unbalanced, macro F1 was also checked.
+
+**Best model:** <model name>, accuracy <xx.x%>, macro F1 <0.xxx>
+
 ## Repository structure
 
 ```
